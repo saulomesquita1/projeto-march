@@ -25,7 +25,7 @@ header{
 }
 
 header h1{
-    font-size: 5em;
+    font-size: 3em;
 }
 
 header p{
@@ -38,7 +38,29 @@ header p a{
 }
 
 header p a:hover{
-    text-decoration: underline;
+    text-decoration: underline 2px;
+}
+
+nav{
+    border-top: 1px solid white;
+    background-color: black;
+    padding: 5px;
+    text-indent: 30px;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline 2px;
+}
+
+nav img{
+    width: 16px;
+    margin-bottom: -3px;
 }
 
 section{
@@ -66,15 +88,15 @@ section.imagem p{
 }
 
 section#img1{
-    background-image: url(../imagens/background003.jpg);
+    background-image: url(../imagens/background005.jpg);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left center;
 }
 
 section#img2{
-    background-image: url(../imagens/background004.jpg);
+    background-image: url(../imagens/background006.jpg);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left center;
 }
 
 footer{
