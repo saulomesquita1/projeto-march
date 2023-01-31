@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font-titulo: 'Rubik Dirt', cursive;
+    --font-principal: 'Kanit', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    font-family: var(--font-principal);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header h1{
+    font-size: 5em;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+header p a{
+    text-decoration: none;
+    color: white;
+}
+
+header p a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+section.branco{
+    background-color: white;
+}
+
+section.imagem{
+    background-color: blue;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem p{
+    display: inline-block;
+    
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 20px;
+}
+
+section#img1{
+    background-image: url(../imagens/background003.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+section#img2{
+    background-image: url(../imagens/background004.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    font-weight: normal;
+}
